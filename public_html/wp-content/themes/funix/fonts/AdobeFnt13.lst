@@ -1,0 +1,402 @@
+%!Adobe-FontList 1.13
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaBlack
+FamilyName:SFU Helvetica
+StyleName:Black
+FullName:SFU Helvetica Black
+MenuName:SFU Helvetica
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaBlack.TTF
+DataFormat:sfntData
+FileLength:74280
+FileModTime:1130305262
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaBlackOblique
+FamilyName:SFU Helvetica
+StyleName:BlackOblique
+FullName:SFU Helvetica BlackOblique
+MenuName:SFU Helvetica
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaBlackOblique.TTF
+DataFormat:sfntData
+FileLength:75848
+FileModTime:1128835394
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaBold
+FamilyName:SFU Helvetica
+StyleName:Bold
+FullName:SFU Helvetica Bold
+MenuName:SFU Helvetica
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaBold.TTF
+DataFormat:sfntData
+FileLength:79112
+FileModTime:1160462888
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCompressed
+FamilyName:SFU Helvetica
+StyleName:Compressed
+FullName:SFU Helvetica Compressed
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCompressed.TTF
+DataFormat:sfntData
+FileLength:75580
+FileModTime:1127173736
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCondensed
+FamilyName:SFU Helvetica
+StyleName:Condensed
+FullName:SFU Helvetica Condensed
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCondensed.TTF
+DataFormat:sfntData
+FileLength:81400
+FileModTime:1161142682
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCondensedBlack
+FamilyName:SFU Helvetica
+StyleName:CondensedBlack
+FullName:SFU Helvetica CondensedBlack
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCondensedBlack.TTF
+DataFormat:sfntData
+FileLength:75516
+FileModTime:1127173962
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCondensedBlackObl
+FamilyName:SFU Helvetica
+StyleName:CondensedBlackObl
+FullName:SFU Helvetica CondensedBlackObl
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCondensedBlackOblique.TTF
+DataFormat:sfntData
+FileLength:81152
+FileModTime:1127174090
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCondensedBold
+FamilyName:SFU Helvetica
+StyleName:CondensedBold
+FullName:SFU Helvetica CondensedBold
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCondensedBold.TTF
+DataFormat:sfntData
+FileLength:79512
+FileModTime:1127174144
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCondensedBoldObl
+FamilyName:SFU Helvetica
+StyleName:CondensedBoldObl
+FullName:SFU Helvetica CondensedBoldObl
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCondensedBoldOblique.TTF
+DataFormat:sfntData
+FileLength:83556
+FileModTime:1127174180
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCondensedLight
+FamilyName:SFU Helvetica
+StyleName:CondensedLight
+FullName:SFU Helvetica CondensedLight
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCondensedLight.TTF
+DataFormat:sfntData
+FileLength:78684
+FileModTime:1127174198
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCondensedLightObl
+FamilyName:SFU Helvetica
+StyleName:CondensedLightObl
+FullName:SFU Helvetica CondensedLightObl
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCondensedLightOblique.TTF
+DataFormat:sfntData
+FileLength:80624
+FileModTime:1127174290
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaCondensedOblique
+FamilyName:SFU Helvetica
+StyleName:CondensedOblique
+FullName:SFU Helvetica CondensedOblique
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaCondensedOblique.TTF
+DataFormat:sfntData
+FileLength:88320
+FileModTime:1160460850
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaExtraCompressed
+FamilyName:SFU Helvetica
+StyleName:ExtraCompressed
+FullName:SFU Helvetica ExtraCompressed
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaExtraCompressed.TTF
+DataFormat:sfntData
+FileLength:74856
+FileModTime:1127174334
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaLight
+FamilyName:SFU Helvetica
+StyleName:Light
+FullName:SFU Helvetica Light
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaLight.TTF
+DataFormat:sfntData
+FileLength:80832
+FileModTime:1123388940
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaLightOblique
+FamilyName:SFU Helvetica
+StyleName:LightOblique
+FullName:SFU Helvetica LightOblique
+MenuName:SFU Helvetica
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaLightOblique.TTF
+DataFormat:sfntData
+FileLength:82528
+FileModTime:1127173816
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaNarrow
+FamilyName:SFU Helvetica
+StyleName:Narrow
+FullName:SFU Helvetica Narrow
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaNarrow.TTF
+DataFormat:sfntData
+FileLength:81416
+FileModTime:1127173856
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaNarrowBold
+FamilyName:SFU Helvetica
+StyleName:NarrowBold
+FullName:SFU Helvetica NarrowBold
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaNarrowBold.TTF
+DataFormat:sfntData
+FileLength:77120
+FileModTime:1127173838
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaNeueUltraLight
+FamilyName:SFU HelveticaNeue
+StyleName:UltraLight
+FullName:SFU HelveticaNeue UltraLight
+MenuName:SFU HelveticaNeue
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaNeueUltraLight.TTF
+DataFormat:sfntData
+FileLength:95660
+FileModTime:1165705100
+WeightClass:200
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaOblique
+FamilyName:SFU Helvetica
+StyleName:Oblique
+FullName:SFU Helvetica Oblique
+MenuName:SFU Helvetica
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaOblique.TTF
+DataFormat:sfntData
+FileLength:83268
+FileModTime:1130305274
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelvetica
+FamilyName:SFU Helvetica
+StyleName:Regular
+FullName:SFU Helvetica
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaRegular.TTF
+DataFormat:sfntData
+FileLength:78488
+FileModTime:1123576266
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SFUHelveticaUltraCompressed
+FamilyName:SFU Helvetica
+StyleName:UltraCompressed
+FullName:SFU Helvetica UltraCompressed
+MenuName:SFU Helvetica
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Libraries\Desktop\FN\Font\SFUHelveticaUltraCompressed.TTF
+DataFormat:sfntData
+FileLength:77040
+FileModTime:1127174356
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
