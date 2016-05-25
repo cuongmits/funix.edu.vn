@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,vietnamese");
 body{
-    font-family: Helvetica;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar{

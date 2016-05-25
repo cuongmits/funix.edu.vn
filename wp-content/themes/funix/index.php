@@ -71,8 +71,8 @@ get_header(); ?>
 				<img src="<?php echo get_template_directory_uri (); ?>/img/object3.png">
 				<img src="<?php echo get_template_directory_uri (); ?>/img/object4.png">
 				<br><br>
-				<p>Hay không phải 4 nhóm trên? Cũng không sao cả, hãy liên lạc, Hanah sẽ tư vấn.</p>
 			</div>
+			<p class="text-obj-human">Hay không phải 4 nhóm trên? Cũng không sao cả, hãy liên lạc, Hanah sẽ tư vấn.</p>
 
 			<div id="reason-box">
 				<p>04 điều rất thật này đã thuyết phục nhiều bạn gắn bó với FUNiX</p>
