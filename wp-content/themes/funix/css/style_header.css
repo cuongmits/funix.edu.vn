@@ -6,7 +6,10 @@ body{
 .navbar{
     border: none;
     padding-top: 2%;
-    margin-left: 6%;
+    margin-left: 5%;
+}
+.navbar-nav{
+    margin-left: 5%;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{

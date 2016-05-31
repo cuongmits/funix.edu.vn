@@ -66,10 +66,10 @@ get_header(); ?>
 			<br>
 
 			<div id="object-human">
-				<img src="<?php echo get_template_directory_uri (); ?>/img/object1.png">
-				<img src="<?php echo get_template_directory_uri (); ?>/img/object2.png">
-				<img src="<?php echo get_template_directory_uri (); ?>/img/object3.png">
-				<img src="<?php echo get_template_directory_uri (); ?>/img/object4.png">
+				<a href="#"><img src="<?php echo get_template_directory_uri (); ?>/img/object1.png"></a>
+				<a href="#"><img src="<?php echo get_template_directory_uri (); ?>/img/object2.png"></a>
+				<a href="#"><img src="<?php echo get_template_directory_uri (); ?>/img/object3.png"></a>
+				<a href="#"><img src="<?php echo get_template_directory_uri (); ?>/img/object4.png"></a>
 				<br><br>
 			</div>
 			<p class="text-obj-human">Hay không phải 4 nhóm trên? Cũng không sao cả, hãy liên lạc, Hanah sẽ tư vấn.</p>
@@ -110,8 +110,10 @@ get_header(); ?>
 							<div class="bound-new">
 								<div class="img-new"><img src="<?php echo get_template_directory_uri (); ?>/img/index/news/FUNiX-new.png"></div>
 								<div class="content-new-1"><strong>Việt Nam có đại học trực tuyến đầu tiên ra mắt ngày 13/102015</strong><br>
+									<br>
 									<div class="text-content-1">Sáng 13/10,ra mắt ĐH trực tuyến đầu tiên của Việt Nam - ĐH trực tuyến FUNiX - triển 
 									khai theo phương pháo đào tạo hoàn toàn mới, cung cấp bằng Cử nhân Công...</div>
+									<br>
 									<div class="link-content-1">
 										<a href="#">Xem thêm ></a>
 									</div>
@@ -168,15 +170,15 @@ get_header(); ?>
 							<div><img src="<?php echo get_template_directory_uri (); ?>/img/line-specmentor.png"></div>
 							<div class="answer-2">
 								<ul>
-								  <li><p>Mỗi học viên FUNiX đều được tiếp cận với kho học liệu số MOOCs từ những giáo
+								  <li><div>Mỗi học viên FUNiX đều được tiếp cận với kho học liệu số MOOCs từ những giáo
 								   sư hàng đầu thế giới. Những tư liệu này đã được các chuyên gia của FUNiX chọn lọc
-								   và chứng minh tính tối ưu</p>
+								   và chứng minh tính tối ưu</div>
 								  </li>
-								  <li><p>Sau mỗi kì học, học viên sẽ nhận được 1 chứng chỉ chứng nhận có thể làm được
-								  	công việc tương ứng do một trong những công ty lớn trong nganh CNTT của Việt Nam cấp</p>
+								  <li><div>Sau mỗi kì học, học viên sẽ nhận được 1 chứng chỉ chứng nhận có thể làm được
+								  	công việc tương ứng do một trong những công ty lớn trong nganh CNTT của Việt Nam cấp</div>
 								  </li>
-								  <li><p>Hoàn thành 8 kì học tại FUNiX, sinh viên sẽ trở thành Kỹ sư CNTT, nhận bằng Đại học
-								  	được Bộ Giáo dục & Đào tạo công nhận.</p>
+								  <li><div>Hoàn thành 8 kì học tại FUNiX, sinh viên sẽ trở thành Kỹ sư CNTT, nhận bằng Đại học
+								  	được Bộ Giáo dục & Đào tạo công nhận.</div>
 								  </li>
 								</ul>
 							</div>
@@ -322,7 +324,7 @@ get_header(); ?>
 			            currentIndex = 1;
 			        }
 			        plusSlides(currentIndex);
-			    }, 3000);
+			    }, 5000);
 			</script>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
