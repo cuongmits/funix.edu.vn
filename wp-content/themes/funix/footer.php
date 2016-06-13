@@ -44,7 +44,7 @@
 								</form>
 								<a class="btn register" href="#" role="button"><img src="<?php echo get_template_directory_uri (); ?>/img/footer/light-btn.png">tôi Đăng ký</a>
 							</div>
-							<div><a href="#" class="hidden-lg hidden-sm hidden-md scrollup"><img src="<?php echo get_template_directory_uri (); ?>/img/footer/bot-top-btn.png"></a></div>
+							<div><a href="#" class="scrollup"><img src="<?php echo get_template_directory_uri (); ?>/img/footer/bot-top-btn.png"></a></div>
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,275 @@
+.img1-about{
+    width: 100%;
+}
+
+#block1-about{
+    margin-top: 5%;
+    margin-bottom: 9%;
+    margin-left: 6%;
+}
+
+.text-about p:first-child{
+    color: #0099ff;
+    font-size: 25px;
+}
+
+#block2-about{
+    background: #f6f7f8;
+    padding-top: 1%;
+}
+
+#block2-about div:first-child{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.text-table{
+    width: 24%;
+}
+
+.icon-table{
+    width: 5%;
+}
+
+.story-about p:first-child{
+    text-align: center;
+    color: #0099ff;
+    font-size: 30px;
+    margin-top: 4%;
+}
+
+.story-about p:nth-child(2){
+    text-align: center;
+}
+
+.wrapper-about{
+    text-align: center;
+}
+
+.btn-story-about{
+    background: #0099ff;
+    border-radius: 0px;
+    border-top: 3px solid #244996;
+    color: white;
+    padding: 1% 4% 1% 4%;
+    font-size: 18px;
+}
+
+#block3-about{
+    display: inline-block;
+    margin-bottom: 0.5%;
+    margin-bottom: 5px;
+}
+
+#block3-about div:first-child{
+    margin-left: 20%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#block3-about div:first-child img:first-child{
+    float: left;
+    display: inline-block;
+    height: 353px;
+    margin-right: 5%;
+}
+
+.letter{
+    width: 60%;
+}
+
+#block4-about div:first-child{
+    text-align: center;
+    background: #35c2ea;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#block4-about span{
+    color: white;
+    margin-right: 7%;
+    font-size: 18px;
+}
+
+.btn-block4-about{
+    color: white;
+    border-radius: 0px;
+    border: 1px solid white;
+    background: #35c2ea;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#block5-about .slideshow-container .mySlides{
+    background: #426b93;
+}
+
+#block5-about .position-dot{
+    position: absolute;
+    top: 90%;
+    left: 46%;
+}
+
+#block5-about .mySlides{
+
+}
+
+#block5-about .mySlides .text{
+    position: absolute;
+    top:22%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+#block5-about .mySlides img:nth-child(2){
+    width: 12%;
+}
+
+#block5-about .mySlides img:nth-child(4){
+    width: 8%;
+}
+
+.btn-block5-about{
+    border-radius: 0px;
+    border: 1px solid white;
+    background: #3f648c;
+}
+
+/*Submit Form*/
+#submit{
+    height: 300px;
+    margin-left: 26%;
+    margin-top: 10%;
+}
+
+.img-submit{
+    float: left;
+}
+
+.submit-text p:first-child{
+    font-size: 30px;
+}
+
+
+/*Page Certificate FUNiX*/
+#table-cer{
+    border-top: 15px solid #0099ff;
+    width: 20%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 10px #cccccc;
+    -webkit-box-shadow: 0px 8px 8px 8px #cccccc;
+    position: relative;
+    left: 67%;
+    margin-top: -5%;
+    background: white;
+}
+
+#table-cer div:first-child p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
+
+#table-cer div:first-child img{
+    float: left;
+    margin-left: 10%;
+}
+
+.certificate tr{
+    border-bottom: 1px solid #c9c9c9;
+    height: 50px;
+}
+
+.certificat td td a{
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.certificat tr td a:hover{
+    color: #3399ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+#block1-cer{
+    background: #f6f7f8;
+    display: inline-block;
+}
+.block1-2{
+    text-align: justify;
+
+}
+
+.block2-1 img{
+    float: left;
+    margin-left: 21%;
+    width: 10%;
+    margin-right: 2%;
+}
+
+.benefit{
+    width: 62%;
+    text-align: justify;
+}
+
+.benefit img{
+    margin-left: 0px;
+}
+
+.chance-cer{
+    margin-left: 21%;
+}
+
+.chance-cer div:first-child{
+    float: left;
+}
+
+.chance-cer div:nth-child(2){
+    padding-top: 1px;
+}
+
+.chance-cer div img{
+    float: left;
+}
+
+.chance-cer ul{
+    float: left;
+}
+
+#block3-cer{
+    background: #15181d;
+    text-align: center;
+}
+
+#block3-cer h2{
+    color: white;
+    padding-top: 6%;
+}
+
+#block3-cer p{
+    color: white;
+}
+
+#block3-cer form input{
+    background: #15181d;
+    width: 50%;
+    margin-bottom: 2%;
+    height: 70px;
+    padding-left: 2%;
+    color: gray;
+    border: 1px solid #444957;
+}
+
+.submit-button-cer{
+    background: #4285f4 !important;
+    font-size: 30px;
+    color: white !important;
+    font-weight: bold;
+}
+
