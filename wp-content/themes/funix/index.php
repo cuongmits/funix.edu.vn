@@ -26,7 +26,7 @@ get_header(); ?>
 			<div class="slideshow-container">
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png" style="width:100%">
+					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png">
 					<div class="text">
 						<p>Hãy làm quen với Hanah</p>
 						<p>Hanah là trợ lý các lớp học của FUNiX. Cô ấy sẽ giúp bạn lựa chọn một lịch trình học tập phù hợp với quỹ thời gian của bạn.</p>
@@ -34,26 +34,26 @@ get_header(); ?>
 				</div>
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-2.png" style="width:100%">
-					<div class="text">Caption Two</div>
+					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-2.png">
+					<div class="caption">Caption Two</div>
 				</div>
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png" style="width:100%">
-					<div class="text">Caption Three</div>
+					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png">
+					<div class="caption">Caption Three</div>
 				</div>
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-2.png" style="width:100%">
-					<div class="text">Caption Two</div>
+					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-2.png">
+					<div class="caption">Caption Two</div>
 				</div>
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png" style="width:100%">
-					<div class="text">Caption Three</div>
+					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png">
+					<div class="caption">Caption Three</div>
 				</div>
 
-				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="prev hidden-xs" onclick="plusSlides(-1)">❮</a>
 				<a class="next" onclick="plusSlides(1)">❯</a>
 				<div class="position-dot">
 					<span class="dot" onclick="currentSlide(1)"></span>
@@ -77,7 +77,35 @@ get_header(); ?>
 			<div id="reason-box">
 				<p>04 điều rất thật này đã thuyết phục nhiều bạn gắn bó với FUNiX</p>
 				<img src="<?php echo get_template_directory_uri (); ?>/img/thanh-ngang.png">
-				<table>
+				<div class="row rs-box">
+					<div class="col-sm-3 col-md-3 col-lg-3 reason-1" >
+						<div class="rs-i-1"><img src="<?php echo get_template_directory_uri (); ?>/img/ten-lua.png"></div>
+						<div class="tit-rs">Học nhanh kiếm tiền sớm</div>
+						<div class="content-rs">Chọn học tại FUNiX, nếu chăm chỉ và tập trung, bạn có thể hoàn thành khóa học nhanh hơn mà không phải chờ đợi ai cả.
+						 Học xong nhanh, đi làm sớm, bạn sẽ mau chóng làm ra thu nhập đỡ đần được cha mẹ và gia đình.</div>
+					</div>
+
+					<div class="col-sm-3 col-md-3 col-lg-3 reason-2" >
+						<div class="rs-i-2"><img src="<?php echo get_template_directory_uri (); ?>/img/glass.png"></div>
+						<div class="tit-rs">Học cùng chuyên gia</div>
+						<div class="content-rs">Trong lĩnh vực CNTT, việc học sẽ nhanh hơn khi có người hướng dẫn. Chọn học tại FUNiX, bạn sẽ có được sự đồng hành cầm tay
+						 chỉ việc của các chuyên gia CNTT hàng đầu Việt Nam với bài giảng của các trường Đại học danh tiếng trên thế giới</div>
+					</div>
+
+					<div class="col-sm-3 col-md-3 col-lg-3 reason-3" >
+						<div class="rs-i-3"><img src="<?php echo get_template_directory_uri (); ?>/img/certificate.png"></div>
+						<div class="tit-rs">Nhận bằng đại học</div>
+						<div class="content-rs">FUNiX là một trường đại học. Hoàn thành chương trình học tại FUNiX, bạn sẽ được nhận bằng kỹ sư phần mềm (Software Engineering) 
+							do Bộ GD&ĐT công nhận. Với tấm bằng này, ra trường bạn được xét mức lương đại học, được học lên thạc sỹ, tiến sỹ.</div>
+					</div>
+					<div class="col-sm-3 col-md-3 col-lg-3 reason-4" >
+						<div class="rs-i-4"><img src="<?php echo get_template_directory_uri (); ?>/img/bag.png"></div>
+						<div class="tit-rs">Có việc làm ngay</div>
+						<div class="content-rs">Chương trình học của FUNiX hiện có 8 chứng chỉ. Vượt qua 3/8 chứng chỉ đầu tiên, tức là sau khoảng 1 năm học tập, bạn có ngay các cơ hội việc làm CNTT tại 
+							các công ty, tập đoàn công nghệ FPT, Tinh Vân... Các chuyên gia hướng dẫn các bạn hàng ngày cũng chính là các nhà tuyển dụng.</div>
+					</div>
+				</div>
+<!-- 				<table>
 					<tr class="img-reason">
 						<td><img src="<?php echo get_template_directory_uri (); ?>/img/ten-lua.png"></td>
 						<td><img src="<?php echo get_template_directory_uri (); ?>/img/glass.png"></td>
@@ -96,7 +124,7 @@ get_header(); ?>
 						<td><span>FUNiX là một trường đại học. Hoàn thành chương trình học tại FUNiX, bạn sẽ được nhận bằng kỹ sư phần mềm (Software Engineering) do Bộ GD&ĐT công nhận. Với tấm bằng này, ra trường bạn được xét mức lương đại học, được học lên thạc sỹ, tiến sỹ.</span></td>
 						<td><span>Chương trình học của FUNiX hiện có 8 chứng chỉ. Vượt qua 3/8 chứng chỉ đầu tiên, tức là sau khoảng 1 năm học tập, bạn có ngay các cơ hội việc làm CNTT tại các công ty, tập đoàn công nghệ FPT, Tinh Vân... Các chuyên gia hướng dẫn các bạn hàng ngày cũng chính là các nhà tuyển dụng.</span></td>
 					</tr>
-				</table>
+				</table> -->
 			</div>
 
 
@@ -269,13 +297,13 @@ get_header(); ?>
 								<div class="regency">Nguyên Tổng giám đốc FPT Software</div>
 								<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoFPT_2.png">
 							</div>
-							<div class="col-sm-3 col-md-3 col-lg-3 mentor-3" >
+							<div class="hidden-xs col-sm-3 col-md-3 col-lg-3 mentor-3" >
 								<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_3.png">
 								<div class="name">Hoàng Giang</div>
 								<div class="regency">Phó giám đốc Trung tâm sản phẩm ứng dụng - Tổng công ty Viettel</div>
 								<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoVT_3.png">
 							</div>
-							<div class="col-sm-3 col-md-3 col-lg-3 mentor-4" >
+							<div class="hidden-xs col-sm-3 col-md-3 col-lg-3 mentor-4" >
 								<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_4.png">
 								<div class="name">Nguyễn Song Hà</div>
 								<div class="regency rgc4">Kỹ sư phần mềm Microsoft</div>
@@ -283,8 +311,11 @@ get_header(); ?>
 							</div>
 						</div>
 						<div class="row" id="button">
-							<div class="col-sm-12 col-md-12 col-lg-12 " >
+							<div class="hidden-xs col-sm-12 col-md-12 col-lg-12 btn-mentor" >
 								<a class="btn mentor" href="#" role="button">FUNiX có nhiều mentor hơn thế</a>
+							</div>
+							<div class="hidden-lg hidden-sm hidden-md col-sm-12 col-md-12 col-lg-12 " >
+								<a href="#" class= "see-more">Xem Thêm</a>
 							</div>
 						</div>
 				</div>

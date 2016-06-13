@@ -19,18 +19,22 @@
     <!-- Bootstrap -->
     <link href="<?php echo get_template_directory_uri (); ?>/css/bootstrap.min.css" rel="stylesheet">
 	
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="<?php echo get_template_directory_uri (); ?>/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_footer.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_specmentor.css">
+	
 	<script src="<?php echo get_template_directory_uri (); ?>/js/js_index.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri (); ?>/js/jssor.slider.min.js"></script>
 	<script  type="text/javascript" src="<?php echo get_template_directory_uri (); ?>/js/slider_top.js"></script>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/silder_top.css">
-	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_footer.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_specmentor.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_header.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/index.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_learn.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_news.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_mentors.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_blogs.css">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -51,20 +55,20 @@
 
 		<header class="site-header">
 			<div class="site-header-main">
-			
-				
 				<nav class="navbar navbar-inverse">
 					<div class="container-fluid">
-						<div class="navbar-header">
+						<div class="navbar-header hidden-md hidden-lg hidden-sm">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<div><a class="navbar-brand" href="#"><img  class="logo-header" src="<?php echo get_template_directory_uri (); ?>../img/logo.png"></a></div>
+							<a class="navbar-brand" href="#"><img  class="logo-header" src="<?php echo get_template_directory_uri (); ?>/img/logo.png"></a>
+							<a href="#" class="btn btn-blue-mobile">Đăng ký</a>
+							<a href="#"><img class="search" src="<?php echo get_template_directory_uri (); ?>/img/search.png"></a>
 						</div>
-
-						<div class="collapse navbar-collapse" id="myNavbar">
+						<a class="navbar-brand hidden-xs col-sm-2 col-md-2 col-lg-2" href="#"><img  class="logo-header1" src="<?php echo get_template_directory_uri (); ?>/img/logo.png"></a>
+						<div class="collapse navbar-collapse col-sm-7 col-md-8 col-lg-8" id="myNavbar">
 							<ul class="nav navbar-nav">
 								<li><a href="#">Trang chủ</a></li>
 								<li><a href="#">Giới thiệu</a></li>
@@ -74,12 +78,14 @@
 								<li><a href="#">Tin tức</a></li>
 								<li><a href="#">Câu hỏi thường gặp</a></li>
 							</ul>
-							<a href="#" class="btn btn-blue">Đăng ký</a>
-							<a href="#"><i class="fa fa-search"></i></a>
+						</div>
+						<div class="hidden-xs col-sm-3 col-md-2 col-lg-2 block-search" id="search-header" >
+							<a href="#" class="btn btn-blue hidden-xs">Đăng ký</a>
+							<a href="#" class="btn btn-blue-mobile hidden-md hidden-lg hidden-sm">Đăng ký</a>
+							<a href="#" class="search"><img src="<?php echo get_template_directory_uri (); ?>/img/search.png"></a>
 						</div>
 					</div>
-				</nav>
-				
+				</nav>				
 				
 			</div><!-- .site-header-main -->
 		</header><!-- .site-header -->

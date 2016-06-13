@@ -12,7 +12,10 @@
 .text p:first-child{
     font-size: 30px;
 }
-
+.text-obj-human{
+    text-align: center;
+    text-decoration: underline;
+}
 /*----------Sile----------*/
 * {box-sizing:border-box}
 body {font-family: 'Open Sans', sans-serif;margin:0}
@@ -100,16 +103,15 @@ body {font-family: 'Open Sans', sans-serif;margin:0}
     width: 100%;
     height: 100%;
     position: relative;
-    margin-left: 6%;
 }
 
 #object-human img{
-    width: 20%;
-    margin-left: 1%;
-    margin-right: 1%;
+    width: 23%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
 }
 
-.text-obj-human{
+#object-human p{
     text-align: center;
     text-decoration: underline;
 }
@@ -128,8 +130,8 @@ body {font-family: 'Open Sans', sans-serif;margin:0}
 
 #reason-box > p{
     text-align: center;
-    font-size: 36px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-family: SFU Helvetica;
     font-weight: lighter;
 }
 
@@ -151,10 +153,534 @@ body {font-family: 'Open Sans', sans-serif;margin:0}
 .title-reason{
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .content-reason{
     text-align: justify;
+}
+
+@media all and (min-width:360px){
+    #reason-box > p {
+        font-size: 20px;
+    }
+    #reason-box > img {
+        margin-left: 25%;
+    }
+
+    #object-human{
+        margin-top: 0%;
+    }
+
+    #object-human img {
+        width: 48%;
+        border: 3px solid #e2e2e2;
+    }
+    .rs-box{
+        margin-top: 5%;
+    }
+
+    .rs-i-2 img{
+        margin-top: 10%;
+    }
+
+    .tit-rs{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+        padding-bottom: 10%;
+        font-size: 20px;
+    }
+
+    .content-rs{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+    }
+    .rs-i-1 ,.rs-i-2 , .rs-i-3,.rs-i-4 {
+        height: 118px;
+        text-align: center;
+        padding-bottom: 46%;
+    }
+
+    .rs-i-3 img,.rs-i-4 img{
+        margin-top: 10%;
+    }
+
+    .rs-i-2 img{
+       margin-top: 20%; 
+    }
+    .reason-1,.reason-2,.reason-3,.reason-4{
+        border: 3px solid #e2e2e2;
+        margin-top: 10%;
+    }
+
+    .position-dot {
+        position: absolute;
+        top: 85%;
+        left: 37%;
+    }
+
+    .mySlides img{
+        width: 130%;
+    }
+
+    .caption {
+        display: none;
+    }
+
+    .text{
+        width: 80%;
+        font-size: 15px;
+        margin-top: -5%;
+        text-align: left;
+    }
+
+    .text p:first-child {
+        font-size: 18px;
+    }
+    .slideshow-container .next{
+        margin-top: -4px;
+    }
+
+    .dot{
+        height: 5px;
+        width: 5px;
+    }
+
+    .dot:hover{
+        height: 5px;
+        width: 5px;
+    }
+
+    .prev, .next {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+    }
+}
+
+@media all and (min-width: 1240px){
+    #object-human{
+        margin-top: -6%;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-left: 3%;
+    }
+
+    #object-human img{
+        width: 23%;
+        margin-left: 0.25%;
+        margin-right: 0.25%;
+        border: 0px solid white;
+    }
+
+    #object-human p{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    #reason-box > img{
+        margin-left: 40%;
+    }
+
+    .img-reason{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    .title-reason{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .content-reason{
+        text-align: justify;
+    }
+
+    .rs-i-1 ,.rs-i-2 , .rs-i-3,.rs-i-4 {
+        border: 0px solid white;
+        height: 118px;
+        text-align: center;
+        padding-bottom: 55%;
+    }
+
+    .rs-box{
+        margin-top: -10%;
+    }
+
+    .rs-i-2 img{
+        margin-top: 10%;
+    }
+
+    .tit-rs{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+        padding-bottom: 10%;
+    }
+
+    .content-rs{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+    }
+
+    .mySlides img{
+        width: 100%;
+    }
+    .reason-1,.reason-2,.reason-3,.reason-4{
+        border: 0px solid white;
+    }
+
+    .position-dot{
+        position: absolute;
+        top:60%;
+        left: 7%;
+    }
+
+    .dot {
+        cursor:pointer;
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+     .active-1,.dot:hover {
+        background-color: #4daed8;
+        border: 3px solid white;
+        width: 16px;
+        height: 16px;
+    }
+
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top:24%;
+        left: 6%;
+        bottom: 8px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .text p:first-child {
+        font-size: 30px;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        top: 50%;
+        width: auto;
+        padding: 1px 10px 1px 10px;
+        margin: 0% 3% 0% 3%;
+        color: white;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border: 2px solid white;
+        border-radius: 100%;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        margin-top: 22px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        border-color: black;
+    }
+}
+@media all and (min-width: 768px) {
+    #object-human{
+        margin-top: -6%;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-left: 3%;
+    }
+
+    #object-human img{
+        width: 23%;
+        margin-left: 0.25%;
+        margin-right: 0.25%;
+        border: 0px solid white;
+    }
+
+    #object-human p{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    #reason-box > img{
+        margin-left: 40%;
+    }
+
+    .img-reason{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    .title-reason{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .content-reason{
+        text-align: justify;
+    }
+
+    .rs-i-1 ,.rs-i-2 , .rs-i-3,.rs-i-4 {
+        border: 0px solid white;
+        height: 118px;
+        text-align: center;
+        padding-bottom: 55%;
+    }
+
+    .rs-box{
+        margin-top: -10%;
+    }
+
+    .rs-i-2 img{
+        margin-top: 10%;
+    }
+
+    .tit-rs{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+        padding-bottom: 10%;
+    }
+
+    .content-rs{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+    }
+
+    .mySlides img{
+        width: 100%;
+    }
+    .reason-1,.reason-2,.reason-3,.reason-4{
+        border: 0px solid white;
+    }
+
+    .position-dot{
+        position: absolute;
+        top:60%;
+        left: 7%;
+    }
+
+    .dot {
+        cursor:pointer;
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+     .active-1,.dot:hover {
+        background-color: #4daed8;
+        border: 3px solid white;
+        width: 16px;
+        height: 16px;
+    }
+
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top:24%;
+        left: 6%;
+        bottom: 8px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .text p:first-child {
+        font-size: 30px;
+    }
+    .text p:nth-child(2){
+        width: 80%;
+    }
+    .prev, .next {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        margin-top: 22px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        border-color: black;
+    }
+
+}
+
+@media all and (min-width: 1024px){
+    .rs-i-1 ,.rs-i-2 , .rs-i-3,.rs-i-4 {
+        border: 0px solid white;
+        height: 118px;
+        text-align: center;
+        padding-bottom: 70%;
+    }
+
+    .navbar-nav {
+        margin-left: 12%;
+        width: 90%;
+    }
+    .block-search{
+        margin-top: -5%;
+        margin-left :40%;
+    }
+    .search img{
+        margin-left: 83%;
+        margin-top: -47%;
+    }
+}
+
+@media all and (max-width: 320px){
+    #reason-box > p {
+        font-size: 20px;
+    }
+
+    #reason-box > img {
+        margin-left: 16%;
+    }
+    .img-reason{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    .title-reason{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .content-reason{
+        text-align: justify;
+    }
+    .reason-1,.reason-2,.reason-3,.reason-4{
+        border: 3px solid #e2e2e2;
+        margin-top: 10%;
+    }
+    .rs-i-1 ,.rs-i-2 , .rs-i-3,.rs-i-4 {
+        height: 118px;
+        text-align: center;
+        padding-bottom: 55%;
+    }
+
+    .rs-i-1{
+        margin-top: 10%;
+    }
+    .rs-box{
+        margin-top: -10%;
+    }
+
+    .rs-i-2 img{
+        margin-top: 10%;
+    }
+    .rs-i-3 img{
+        margin-top: 10%;
+    }
+    .rs-i-4 img{
+        margin-top: 10%;
+    }
+    .tit-rs{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+        padding-bottom: 10%;
+    }
+
+    .content-rs{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #000000;
+    }
+
+    .position-dot {
+        position: absolute;
+        top: 85%;
+        left: 37%;
+    }
+
+    .mySlides img{
+        width: 130%;
+    }
+
+    .caption {
+        display: none;
+    }
+
+    .text{
+        width: 80%;
+        font-size: 15px;
+        margin-top: -10%;
+        text-align: left;
+    }
+
+    .text p:first-child {
+        font-size: 18px;
+    }
+
+    .text p:nth-child(2){
+        margin-top: -3%
+    }
+    .slideshow-container .next{
+        margin-top: -4px;
+    }
+
+    .dot{
+        height: 5px;
+        width: 5px;
+    }
+
+    .dot:hover{
+        height: 5px;
+        width: 5px;
+    }
+
+    .prev, .next {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #object-human{
+        margin-top: 0%;
+    }
+
+    #object-human img {
+        width: 48%;
+        border: 3px solid #e2e2e2;
+    }
 }

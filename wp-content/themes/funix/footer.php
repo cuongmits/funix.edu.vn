@@ -44,6 +44,7 @@
 								</form>
 								<a class="btn register" href="#" role="button"><img src="<?php echo get_template_directory_uri (); ?>/img/footer/light-btn.png">tôi Đăng ký</a>
 							</div>
+							<div><a href="#" class="hidden-lg hidden-sm hidden-md scrollup"><img src="<?php echo get_template_directory_uri (); ?>/img/footer/bot-top-btn.png"></a></div>
 						</div>
 					</div>
 				</div>
@@ -59,5 +60,24 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo get_template_directory_uri (); ?>/js/bootstrap.min.js"></script>
     <!--<script src="<?php echo get_template_directory_uri (); ?>/js/slide.js"></script>-->
+    <script type="text/javascript">
+	    $(document).ready(function () {
+
+		    $(window).scroll(function () {
+		        if ($(this).scrollTop() > 100) {
+		            $('.scrollup').fadeIn();
+		        } else {
+		            $('.scrollup').fadeOut();
+		        }
+		    });
+
+		    $('.scrollup').click(function () {
+		        $("html, body").animate({
+		            scrollTop: 0
+		        }, 600);
+		        return false;
+		    });
+		});
+    </script>
 </body>
 </html>
