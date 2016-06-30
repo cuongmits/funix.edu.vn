@@ -60,16 +60,16 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#"><img  class="logo-header" src="<?php echo get_template_directory_uri (); ?>/img/logo.png"></a>
+							<a class="navbar-brand" href="<?php bloginfo('home')?>"><img  class="logo-header" src="<?php echo get_template_directory_uri (); ?>/img/logo.png"></a>
 							<a href="#" class="btn btn-blue-mobile">Đăng ký</a>
 							<a href="#"><img class="search" src="<?php echo get_template_directory_uri (); ?>/img/search.png"></a>
 						</div>
-						<a class="navbar-brand hidden-xs col-sm-2 col-md-2 col-lg-2" href="#"><img  class="logo-header1" src="<?php echo get_template_directory_uri (); ?>/img/logo.png"></a>
+						<a class="navbar-brand hidden-xs col-sm-2 col-md-2 col-lg-2" href="<?php bloginfo('home')?>"><img  class="logo-header1" src="<?php echo get_template_directory_uri (); ?>/img/logo.png"></a>
 						<div class="collapse navbar-collapse col-sm-7 col-md-8 col-lg-8" id="myNavbar">
 							<ul class="nav navbar-nav">
-								<li><a href="#">Trang chủ</a></li>
-								<li><a href="#">Giới thiệu</a></li>
-								<li><a href="#">Chương trình học</a></li>
+								<li><a href="<?php bloginfo('home')?>">Trang chủ</a></li>
+								<li><a href="index.php?page_id=2">Giới thiệu</a></li>
+								<li><a href="index.php?page_id=1259">Chương trình học</a></li>
 								<li><a href="#">Cách học</a></li>
 								<li><a href="#">Mentors</a></li>
 								<li><a href="#">Tin tức</a></li>

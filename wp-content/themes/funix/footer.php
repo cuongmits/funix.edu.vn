@@ -13,9 +13,6 @@
 		</div><!-- .site-content -->
 
 		<footer class="site-footer">
-			<div class="jumbotron" id="img-footer">
-				<p>"Chắt chiu tuổi trẻ, sẵn sàng đón nhận cảm hứng đổi thay"</p>
-			</div>
 			<div class="jumbotron" id="jb-footer">
 				<div class="page-footer">
 					<div class="container">

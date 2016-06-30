@@ -1,5 +1,5 @@
 <?php
-/*Template Name: Certificate FUNiX*/
+/*Template Name: Certificate 3 FUNiX*/
 
 get_header(); ?>
     <div id="primary" class="content-area">
@@ -29,31 +29,23 @@ get_header(); ?>
                             <td>.</td>
                             <td><a href="#">Certificate 8</a></td>
                         </tr><tr>
-                            <td><a href="#">Certificate 9</a></td>
-                            <td>.</td>
                             <td>Học phí</td>
                         </tr>
                     </table>
                 </div>
                 <div class="block1-2 col-lg-5">
-                    <h2>Certificate 1</h2>
-                    <p><strong>Digital Passport -</strong>Chứng chỉ Công dân số</p>
-                    <ul>
-                        <li>Mastering your computer - Làm chủ máy tính</li>
-                        <li>Becoming an Digital Citizen - Trở thành công dấn số</li>
-                        <li>Building your first website - Xây dựng website đầu tiên</li>
-                        <li>Creating your first program(with Javascript) - Xây dựng phần mềm đầu tiền</li>
-                    </ul>
-                    <p>Sau khi hoàn thành chứng chỉ này, sinh viên có khả năng sử dụng máy tính và các công cụ thành thạo,  có thể dựng cho mình website và lập trình đơn giản, biết các sử dụng các công cụ liên lạc và tìm kiếm trong công việc, có thể làm nghề Hỗ trợ tin học hoặc kinh doanh trên mạng</p>
+                    <h2>Certificate 3</h2>
+                    <p><?php echo get_post_meta($post->ID,'Subject',true);?></p>
+                    <p><?php echo get_post_meta($post->ID,'Subject infor',true);?></p>
                 </div>
             </div>
             <div id="block2-cer">
                 <div class="block2-1">
-                    <img src="<?php echo get_template_directory_uri (); ?>/img/img-cer.png">
+                    <img src="<?php echo wp_get_attachment_url(get_post_meta($post->ID,'Subject benefit - image',true)); ?>">
                     <div class="benefit">
                         <h3>Lợi ích sau kỳ học</h3>
                         <img src="<?php echo get_template_directory_uri (); ?>/img/line2-cer.png">
-                        <p>Sau khi hoàn thành chứng chỉ này, sinh viên có khả năng sử dụng máy tính và các công cụ thành thạo,  có thể dựng cho mình website và lập trình đơn giản, biết các sử dụng các công cụ liên lạc và tìm kiếm trong công việc, có thể làm nghề Hỗ trợ tin học hoặc kinh doanh trên mạng</p>
+                        <p><?php echo get_post_meta($post->ID,'Subject benefit - content',true);?></p>
                     </div>
                 </div>
                 <div class="chance-cer">
@@ -61,9 +53,7 @@ get_header(); ?>
                         <h3>Cơ hội nghề nghiệp</h3>
                         <img src="<?php echo get_template_directory_uri (); ?>/img/line2-cer.png">
                         <ul>
-                            <li>Giáo viên</li>
-                            <li>Bác sĩ</li>
-                            <li>Công nhân</li>
+                            <?php echo get_post_meta($post->ID,'Working chance',true);?>
                         </ul>
                     </div>
                     <div>

@@ -16,3 +16,10 @@ function create_mentor_posttype() {
 }
 // Hooking up our function to theme setup
 add_action( 'init', 'create_mentor_posttype' );
+
+function funix_setup_menu(){
+	add_theme_support('menus');
+
+	register_nav_menu('primary','Primary Header Navigation');
+}
+add_action( 'init', 'funix_setup_menu' );

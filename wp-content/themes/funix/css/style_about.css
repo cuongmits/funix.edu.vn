@@ -35,7 +35,7 @@
     text-align: center;
     color: #0099ff;
     font-size: 30px;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 .story-about p:nth-child(2){
@@ -62,20 +62,32 @@
 }
 
 #block3-about div:first-child{
-    margin-left: 20%;
+    margin-left: 10%;
     width: 100%;
     margin-top: 5%;
+    padding-left: 12%;
 }
 
 #block3-about div:first-child img:first-child{
     float: left;
     display: inline-block;
-    height: 353px;
+    height: 300px;
     margin-right: 5%;
+    margin-left: 0%;
 }
 
 .letter{
-    width: 60%;
+    width: 40%;
+    display: inline-block;
+}
+
+.letter p:first-child{
+    font-size: 20px;
+}
+
+.letter button{
+    background: none;
+    border: none;
 }
 
 #block4-about div:first-child{
@@ -137,6 +149,17 @@
     border-radius: 0px;
     border: 1px solid white;
     background: #3f648c;
+}
+
+#showMore{
+    text-decoration: underline;
+    float: right;
+    margin-bottom: 0px;
+}
+
+#showLess{
+    text-decoration: underline;
+    float: right;
 }
 
 /*Submit Form*/
@@ -272,4 +295,145 @@
     color: white !important;
     font-weight: bold;
 }
+
+/*Page Study Programs*/
+.image-cer{
+    width: 100%;
+    margin-bottom: 9px;
+}
+
+.image-cer a img{
+    width: 49%;
+}
+
+#block4-study-programs{
+    width: 100%;
+    background: #f4f5f8;
+    height: 200px;
+}
+
+#block4-study-programs p{
+    font-size: 30px;
+    margin-left: 24%;
+    width: 28%;
+    padding-top: 4%;
+    float: left;
+}
+
+#block4-study-programs img{
+    height: 150px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+@media (max-width: 1024px) {
+    #block3-about div:first-child{
+        padding-left: 6%;
+    }
+}
+
+@media(max-width: 768px){
+    #table-cer{
+        width: 100%;
+        left: 0%;
+        margin-bottom: 6%;
+    }
+
+    .benefit{
+        width: 90%;
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    .block2-1 img{
+        margin-left: 5%;
+        width: 20%;
+    }
+
+    .chance-cer{
+        margin-left: 8%;
+    }
+
+    #block3-cer form input{
+        width: 90%;
+    }
+
+    .chance-cer div:first-child{
+        width: 35%;
+    }
+
+    .img1-about{
+        margin-top: 17%;
+    }
+    #block3-about div:first-child{
+        padding-left: 0px;
+    }
+}
+
+@media(min-width: 768px){
+  /*  .btn-block5-about{
+        float: right;
+    }
+
+    #block5-about .mySlides .text{
+        top: 7%;
+    }*/
+
+    .letter {
+        width: 38%;
+        text-align: justify;
+    }
+}
+
+@media(max-width: 720px){
+    .letter{
+        width: 80%;
+        padding-left: 0px;
+    }
+
+    #block3-about div:first-child{
+        margin-left: 6%;
+    }
+
+    #block3-about div:first-child img{
+        margin-bottom: 10px;
+        margin-left: 11%;
+    }
+
+    .chance-cer div:first-child{
+        width: 100%;
+    }
+
+    #block4-study-programs p {
+        font-size: 20px;
+        width: 100%;
+        margin-left: 3%;
+        float: left;
+    }
+
+    #block4-study-programs img {
+        height: 130px;
+        float: left;
+        margin-left: 20%;
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 480px) {
+    .img1-about{
+        margin-top: 27%;
+    }
+
+    .chance-cer div:first-child{
+        margin-right: 12%;
+    }
+}
+
+@media (max-width: 360px) {
+    #block4-study-programs p{
+        font-size: 17px;
+    }
+}
+
 

@@ -14,6 +14,10 @@
  * @since Twenty Sixteen 1.0
  */
 
+/*
+ 	Template Name: Home page FUNiX
+ */
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -26,31 +30,38 @@ get_header(); ?>
 			<div class="slideshow-container">
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png">
+					<img src="<?php echo wp_get_attachment_url(get_post_meta($post=1257,'Silder image 1',true)); ?>">
 					<div class="text">
-						<p>Hãy làm quen với Hanah</p>
-						<p>Hanah là trợ lý các lớp học của FUNiX. Cô ấy sẽ giúp bạn lựa chọn một lịch trình học tập phù hợp với quỹ thời gian của bạn.</p>
+						<p><?php echo get_post_meta($post->ID,'Silder caption 1',true);?></p>
 					</div>
 				</div>
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-2.png">
-					<div class="caption">Caption Two</div>
+					<img src="<?php echo wp_get_attachment_url(get_post_meta($post=1258,'Silder image 2',true)); ?>">
+					<div class="text">
+						<p><?php echo get_post_meta($post->ID,'Silder caption 2',true);?></p>
+					</div>
 				</div>
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png">
-					<div class="caption">Caption Three</div>
+					<img src="<?php echo wp_get_attachment_url(get_post_meta($post=1257,'Silder image 3',true)); ?>">
+					<div class="text">
+						<p><?php echo get_post_meta($post->ID,'Silder caption 3',true);?></p>
+					</div>
 				</div>
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-2.png">
-					<div class="caption">Caption Two</div>
+					<img src="<?php echo wp_get_attachment_url(get_post_meta($post=1258,'Silder image 4',true)); ?>">
+					<div class="text">
+						<p><?php echo get_post_meta($post->ID,'Silder caption 4',true);?></p>
+					</div>
 				</div>
 
 				<div class="mySlides">
-					<img src="<?php echo get_template_directory_uri (); ?>/img/slide-1.png">
-					<div class="caption">Caption Three</div>
+					<img src="<?php echo wp_get_attachment_url(get_post_meta($post->ID,'Silder image 5',true)); ?>">
+					<div class="text">
+						<p><?php echo get_post_meta($post->ID,'Silder caption 5',true);?></p>
+					</div>
 				</div>
 
 				<a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -79,52 +90,28 @@ get_header(); ?>
 				<img src="<?php echo get_template_directory_uri (); ?>/img/thanh-ngang.png">
 				<div class="row rs-box">
 					<div class="col-sm-3 col-md-3 col-lg-3 reason-1" >
-						<div class="rs-i-1"><img src="<?php echo get_template_directory_uri (); ?>/img/ten-lua.png"></div>
-						<div class="tit-rs">Học nhanh kiếm tiền sớm</div>
-						<div class="content-rs">Chọn học tại FUNiX, nếu chăm chỉ và tập trung, bạn có thể hoàn thành khóa học nhanh hơn mà không phải chờ đợi ai cả.
-						 Học xong nhanh, đi làm sớm, bạn sẽ mau chóng làm ra thu nhập đỡ đần được cha mẹ và gia đình.</div>
+						<div class="rs-i-1"><?php echo wp_get_attachment_image(get_post_meta($post=1246,'image1',true));?></div>
+						<div class="tit-rs"><?php echo get_post_meta($post=1246,'Title reason 1',true);?></div>
+						<div class="content-rs"><?php echo get_post_meta($post=1246,'Reason1',true);?></div>
 					</div>
 
 					<div class="col-sm-3 col-md-3 col-lg-3 reason-2" >
-						<div class="rs-i-2"><img src="<?php echo get_template_directory_uri (); ?>/img/glass.png"></div>
-						<div class="tit-rs">Học cùng chuyên gia</div>
-						<div class="content-rs">Trong lĩnh vực CNTT, việc học sẽ nhanh hơn khi có người hướng dẫn. Chọn học tại FUNiX, bạn sẽ có được sự đồng hành cầm tay
-						 chỉ việc của các chuyên gia CNTT hàng đầu Việt Nam với bài giảng của các trường Đại học danh tiếng trên thế giới</div>
+						<div class="rs-i-2"><?php echo wp_get_attachment_image(get_post_meta($post=1246,'image2',true));?></div>
+						<div class="tit-rs"><?php echo get_post_meta($post=1246,'Title reason 2',true);?></div>
+						<div class="content-rs"><?php echo get_post_meta($post=1246,'Reason2',true);?></div>
 					</div>
 
 					<div class="col-sm-3 col-md-3 col-lg-3 reason-3" >
-						<div class="rs-i-3"><img src="<?php echo get_template_directory_uri (); ?>/img/certificate.png"></div>
-						<div class="tit-rs">Nhận bằng đại học</div>
-						<div class="content-rs">FUNiX là một trường đại học. Hoàn thành chương trình học tại FUNiX, bạn sẽ được nhận bằng kỹ sư phần mềm (Software Engineering) 
-							do Bộ GD&ĐT công nhận. Với tấm bằng này, ra trường bạn được xét mức lương đại học, được học lên thạc sỹ, tiến sỹ.</div>
+						<div class="rs-i-3"><?php echo wp_get_attachment_image(get_post_meta($post=1246,'image3',true));?></div>
+						<div class="tit-rs"><?php echo get_post_meta($post=1246,'Title reason 3',true);?></div>
+						<div class="content-rs"><?php echo get_post_meta($post=1246,'Reason3',true);?></div>
 					</div>
 					<div class="col-sm-3 col-md-3 col-lg-3 reason-4" >
-						<div class="rs-i-4"><img src="<?php echo get_template_directory_uri (); ?>/img/bag.png"></div>
-						<div class="tit-rs">Có việc làm ngay</div>
-						<div class="content-rs">Chương trình học của FUNiX hiện có 8 chứng chỉ. Vượt qua 3/8 chứng chỉ đầu tiên, tức là sau khoảng 1 năm học tập, bạn có ngay các cơ hội việc làm CNTT tại 
-							các công ty, tập đoàn công nghệ FPT, Tinh Vân... Các chuyên gia hướng dẫn các bạn hàng ngày cũng chính là các nhà tuyển dụng.</div>
+						<div class="rs-i-4"><?php echo wp_get_attachment_image(get_post_meta($post=1246,'image4',true));?></div>
+						<div class="tit-rs"><?php echo get_post_meta($post=1246,'Title reason 4',true);?></div>
+						<div class="content-rs"><?php echo get_post_meta($post=1246,'Reason4',true);?></div>
 					</div>
 				</div>
-<!-- 				<table>
-					<tr class="img-reason">
-						<td><img src="<?php echo get_template_directory_uri (); ?>/img/ten-lua.png"></td>
-						<td><img src="<?php echo get_template_directory_uri (); ?>/img/glass.png"></td>
-						<td><img src="<?php echo get_template_directory_uri (); ?>/img/certificate.png"></td>
-						<td><img src="<?php echo get_template_directory_uri (); ?>/img/bag.png"></td>
-					</tr>
-					<tr class="title-reason">
-						<td><br><p>Học nhanh kiếm tiền sớm</p></td>
-						<td><br><p>Học cùng chuyên gia</p></td>
-						<td><br><p>Nhận bằng đại học</p></td>
-						<td><br><p>Có việc làm ngay</p></td>
-					</tr>
-					<tr class="content-reason">
-						<td><span>Chọn học tại FUNiX, nếu chăm chỉ và tập trung, bạn có thể hoàn thành khóa học nhanh hơn mà không phải chờ đợi ai cả. Học xong nhanh, đi làm sớm, bạn sẽ mau chóng làm ra thu nhập đỡ đần được cha mẹ và gia đình.</span></td>
-						<td><span>Trong lĩnh vực CNTT, việc học sẽ nhanh hơn khi có người hướng dẫn. Chọn học tại FUNiX, bạn sẽ có được sự đồng hành cầm tay chỉ việc của các chuyên gia CNTT hàng đầu Việt Nam với bài giảng của các trường Đại học danh tiếng trên thế giới.</span></td>
-						<td><span>FUNiX là một trường đại học. Hoàn thành chương trình học tại FUNiX, bạn sẽ được nhận bằng kỹ sư phần mềm (Software Engineering) do Bộ GD&ĐT công nhận. Với tấm bằng này, ra trường bạn được xét mức lương đại học, được học lên thạc sỹ, tiến sỹ.</span></td>
-						<td><span>Chương trình học của FUNiX hiện có 8 chứng chỉ. Vượt qua 3/8 chứng chỉ đầu tiên, tức là sau khoảng 1 năm học tập, bạn có ngay các cơ hội việc làm CNTT tại các công ty, tập đoàn công nghệ FPT, Tinh Vân... Các chuyên gia hướng dẫn các bạn hàng ngày cũng chính là các nhà tuyển dụng.</span></td>
-					</tr>
-				</table> -->
 			</div>
 
 
@@ -166,31 +153,6 @@ get_header(); ?>
 								</tr>
 							</table>	
 							<div class="all-new"><a href="#">Xem tất cả tin tức</a></div>
-							<!-- <div class="content-new-2">
-								<div class="details-new-2">
-									<div class="date-new-2">10/10/2015</div>
-									<div class="author-new-2">Thắm Nguyễn</div>
-								</div>
-								<div class="text-content-2">
-									Học ba kỳ,sinh viên FUNiX có thể làm tại FPT Software với mức lương $1000
-								</div>
-								<div class="jounal">
-									<img src="<?php echo get_template_directory_uri (); ?>/img/index/news/jounal.png">
-								</div>
-							</div>
-							
-							<div class="content-new-3">
-								<div class="details-new-3">
-									<div class="date-new-3">13/9/2015</div>
-									<div class="author-new-3">TrungTran</div>
-								</div>
-								<div class="text-content-3">
-									Khai giảng đại học trực tuyến đầu tiên của Việt Nam
-								</div>
-								<div class="time-new-3"><img src="<?php echo get_template_directory_uri (); ?>/img/index/news/time.png"></div>
-							</div>
-							
-							<div class="all-new"><a href="#">Xem tất cả tin tức</a></div>-->
 						</div> 
 
 						<div class="col-sm-5 col-md-5 col-lg-5 new-column-2" >
@@ -269,55 +231,58 @@ get_header(); ?>
 
 			<div class="jumbotron" id="spec-mentor">
 				<div class="container">
-						<div class="row">
-							<div class="col-sm-12 col-md-12 col-lg-12 text-1" >
-								Những người thầy đặc biệt tại FUNiX
-							</div>
-							<div class="img-line-mentor"><img src="<?php echo get_template_directory_uri (); ?>/img/line-specmentor.png"></div>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12 text-1" >
+							Những người thầy đặc biệt tại FUNiX
 						</div>
-						<div class="row">
-							<div class="col-sm-12 col-md-12 col-lg-12 text-2" >
-								<div>Vì sao họ đặc biệt?Bởi họ không chỉ là những người thầy hướng dẫn học 
-								viên trong các bài học mỗi ngày mà còn là những chuyên gia công nghệ hàng
-								đầu,những đồng nghiệp,đối tác và cũng là nhà tuyển dụng các học viên FUNiX
-								trong tương lai.
-								</div>
-							</div>
-						</div>
-						<div class="row" id="special">
-							<div class="col-sm-3 col-md-3 col-lg-3 mentor-1" >
-								<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_1.png">
-								<div class="name">Hoàng Tô</div>
-								<div class="regency">Chủ tịch HDQT & Tổng giám đốc Tinh Vân Group</div>
-								<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoTV_1.png">
-							</div>
-							<div class="col-sm-3 col-md-3 col-lg-3 mentor-2" >
-								<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_2.png">
-								<div class="name">Nguyễn Thành Lâm</div>
-								<div class="regency">Nguyên Tổng giám đốc FPT Software</div>
-								<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoFPT_2.png">
-							</div>
-							<div class="hidden-xs col-sm-3 col-md-3 col-lg-3 mentor-3" >
-								<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_3.png">
-								<div class="name">Hoàng Giang</div>
-								<div class="regency">Phó giám đốc Trung tâm sản phẩm ứng dụng - Tổng công ty Viettel</div>
-								<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoVT_3.png">
-							</div>
-							<div class="hidden-xs col-sm-3 col-md-3 col-lg-3 mentor-4" >
-								<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_4.png">
-								<div class="name">Nguyễn Song Hà</div>
-								<div class="regency rgc4">Kỹ sư phần mềm Microsoft</div>
-								<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoMicro_4.png">
+						<div class="img-line-mentor"><img src="<?php echo get_template_directory_uri (); ?>/img/line-specmentor.png"></div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-12 text-2" >
+							<div>Vì sao họ đặc biệt?Bởi họ không chỉ là những người thầy hướng dẫn học
+							viên trong các bài học mỗi ngày mà còn là những chuyên gia công nghệ hàng
+							đầu,những đồng nghiệp,đối tác và cũng là nhà tuyển dụng các học viên FUNiX
+							trong tương lai.
 							</div>
 						</div>
-						<div class="row" id="button">
-							<div class="hidden-xs col-sm-12 col-md-12 col-lg-12 btn-mentor" >
-								<a class="btn mentor" href="#" role="button">FUNiX có nhiều mentor hơn thế</a>
-							</div>
-							<div class="hidden-lg hidden-sm hidden-md col-sm-12 col-md-12 col-lg-12 " >
-								<a href="#" class= "see-more">Xem Thêm</a>
-							</div>
+					</div>
+					<div class="row" id="special">
+						<div class="col-sm-3 col-md-3 col-lg-3 mentor-1" >
+							<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_1.png">
+							<div class="name">Hoàng Tô</div>
+							<div class="regency">Chủ tịch HDQT & Tổng giám đốc Tinh Vân Group</div>
+							<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoTV_1.png">
 						</div>
+						<div class="col-sm-3 col-md-3 col-lg-3 mentor-2" >
+							<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_2.png">
+							<div class="name">Nguyễn Thành Lâm</div>
+							<div class="regency">Nguyên Tổng giám đốc FPT Software</div>
+							<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoFPT_2.png">
+						</div>
+						<div class="hidden-xs col-sm-3 col-md-3 col-lg-3 mentor-3" >
+							<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_3.png">
+							<div class="name">Hoàng Giang</div>
+							<div class="regency">Phó giám đốc Trung tâm sản phẩm ứng dụng - Tổng công ty Viettel</div>
+							<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoVT_3.png">
+						</div>
+						<div class="hidden-xs col-sm-3 col-md-3 col-lg-3 mentor-4" >
+							<img class="avatar" src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/mentor_4.png">
+							<div class="name">Nguyễn Song Hà</div>
+							<div class="regency rgc4">Kỹ sư phần mềm Microsoft</div>
+							<img src="<?php echo get_template_directory_uri (); ?>/img/index/spec-mentor/logoMicro_4.png">
+						</div>
+					</div>
+					<div class="row" id="button">
+						<div class="hidden-xs col-sm-12 col-md-12 col-lg-12 btn-mentor" >
+							<a class="btn mentor" href="#" role="button">FUNiX có nhiều mentor hơn thế</a>
+						</div>
+						<div class="hidden-lg hidden-sm hidden-md col-sm-12 col-md-12 col-lg-12 " >
+							<a href="#" class= "see-more">Xem Thêm</a>
+						</div>
+					</div>
+				</div>
+				<div class="jumbotron" id="img-footer">
+					<p>"Chắt chiu tuổi trẻ, sẵn sàng đón nhận cảm hứng đổi thay"</p>
 				</div>
 			</div>
 			<script type="text/javascript">
