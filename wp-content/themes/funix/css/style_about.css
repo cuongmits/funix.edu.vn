@@ -210,12 +210,12 @@
     height: 50px;
 }
 
-.certificat td td a{
+.certificate td td a{
     text-decoration: none;
     font-size: 28px;
 }
 
-.certificat tr td a:hover{
+.certificate tr td a:hover{
     color: #3399ff;
     font-weight: bold;
     text-decoration: none;

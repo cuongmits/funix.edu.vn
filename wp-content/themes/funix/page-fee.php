@@ -18,26 +18,34 @@ get_header(); ?>
 						<div>KHOẢN ĐẦU TƯ XỨNG ĐÁNG CHO NHỮNG CƠ HỘI MỚI TRONG ĐỜI !</div>
 					</div>
 					<div class="col-sm-5 col-md-5 col-lg-5 menu-fee" >
-						<div>Xem các chương trình</div>
-						<div><a href="#">Certificate 1</a> .
-							<a href="#">Certificate 2</a>
-						</div>
-						<img class="hr-menu-fee" src="<?php echo get_template_directory_uri (); ?>/img/fee/hr.png">
-						<div><a href="#">Certificate 3</a> .
-							<a href="#">Certificate 4</a>
-						</div>
-						<img class="hr-menu-fee" src="<?php echo get_template_directory_uri (); ?>/img/fee/hr.png">
-						<div><a href="#">Certificate 5</a> .
-							<a href="#">Certificate 6</a>
-						</div>
-						<img class="hr-menu-fee" src="<?php echo get_template_directory_uri (); ?>/img/fee/hr.png">
-						<div><a href="#">Certificate 7</a> .
-							<a href="#">Certificate 8</a>
-						</div>
-						<img class="hr-menu-fee" src="<?php echo get_template_directory_uri (); ?>/img/fee/hr.png">
-						<div><a href="#">Certificate 9</a> .
-							<a href="#">Học phí</a>
-						</div>
+						 <div id="block1-fee">
+			                <div id="table-fee" class="col-lg-6">
+			                    <div>
+			                        <p>Xem các chứng chỉ</p>
+			                        <img src="<?php echo get_template_directory_uri (); ?>/img/line-table-cer.png">
+			                    </div>
+			                    <table class="certificate-fee">
+			                        <tr>
+			                            <td><a href="#">Certificate 1</a></td>
+			                            <td>.</td>
+			                            <td><a href="#">Certificate 2</a></td>
+			                        </tr><tr>
+			                            <td><a href="#">Certificate 3</a></td>
+			                            <td>.</td>
+			                            <td><a href="#">Certificate 4</a></td>
+			                        </tr><tr>
+			                            <td><a href="#">Certificate 5</a></td>
+			                            <td>.</td>
+			                            <td><a href="#">Certificate 6</a></td>
+			                        </tr><tr>
+			                            <td><a href="#">Certificate 7</a></td>
+			                            <td>.</td>
+			                            <td><a href="#">Certificate 8</a></td>
+			                        </tr><tr>
+			                            <td>Học phí</td>
+			                        </tr>
+			                    </table>
+			                </div>
 					</div>
 				</div>
 				<div class="bound-certi-fee">
@@ -141,34 +149,19 @@ get_header(); ?>
 					<div><img class="hr-fee last-hr" src="<?php echo get_template_directory_uri (); ?>/img/fee/hr-fee.png"></div>
 				</div>
 			</div>
-			<div class="jumbotron register-fee">
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col-lg-12" >
-						<div class="new-title-fee">KHOẢN ĐẦU TƯ XỨNG ĐÁNG CHO NHỮNG CƠ HỘI MỚI TRONG ĐỜI</div>
-						<img src="<?php echo get_template_directory_uri (); ?>/img/fee/hr-color.png">
-						<form role="form">
-							<div class="input-fee"><input type="text" name="fname" placeholder="Họ tên"></div>
-							<div class="input-fee"><input type="text" name="fname" placeholder="Email"></div>
-							<div class="input-fee"><input type="text" name="fname" placeholder="Số điện thoại"></div>
-							<div class="input-fee"><input type="text" name="fname" placeholder="Địa chỉ (Nếu có)"></div>
-							<div class="dropdown down-fee">
-							    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Chương trình
-							    <span class="caret"></span></button>
-							    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-							      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-							      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-							      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-							      <li role="presentation" class="divider"></li>
-							      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-							    </ul>
-						  	</div>
-							<a class="btn btn-primary fee-register" href="#" role="button">ĐĂNG KÝ NGAY</a>
-						</form>
-						<div class="text-regis-fee">tất cả các trường đều bắt buộc</div>
-					</div>
-				</div>
-			</div>
-		</div>
+			<div id="block3-fee">
+                <h2>KHOẢN ĐẦU TƯ XỨNG ĐÁNG CHO NHỮNG CƠ HỘI MỚI TRONG ĐỜI!</h2>
+                <img src="<?php echo get_template_directory_uri (); ?>/img/line-table-cer.png">
+                <p>Bạn quan tâm đến Đại học trực tuyến FUNiX? Bạn mong muốn theo đuổi ngành CNTT, có một công việc tốt hơn?</p>
+                <form action="action_page.php">
+                    <input type="text" name="name" placeholder="Họ và tên(*)" required><br>
+                    <input type="text" name="birthday" placeholder="Ngày sinh(*)" required><br>
+                    <input type="email" name="email" placeholder="Email thường dùng(*)" required><br>
+                    <input type="tel" name="phone" placeholder="Điện thoại liên lạc(*)" required><br>
+                    <input type="text" name="address" placeholder="Nơi ở hiện tại(*)" required><br>
+                    <input class="submit-button-fee" type="submit" value="ĐĂNG KÝ NGAY">
+                </form>
+            </div>
 	</main><!-- .site-main -->
 </div><!-- .content-area -->
 

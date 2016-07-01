@@ -109,6 +109,7 @@ get_header(); ?>
 						    	<div><a href="#"><i class="fa fa-twitter"></i></a></div>
 						    	<div><a href="#"><i class="fa fa-vimeo"></i></a></div>
 						    	<div><a href="#"><i class="fa fa-pinterest-p"></i></a></div>
+						    	
 					    	</div>
 				    	</div>
 

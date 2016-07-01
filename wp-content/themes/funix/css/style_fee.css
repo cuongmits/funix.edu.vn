@@ -7,28 +7,51 @@
 	width: 100%;
 	height: 220px;
 }
-.menu-fee{
-	text-align: center;
-	border: 3px solid #dbdbdb;
-	height: 270px;
+
+#table-fee{
     border-top: 15px solid #0099ff;
-    position: absolute;
-    right: 10%;
-    top: 35%;
-    background-color: white;
-    width: 20%;
+    width: 111%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 10px #cccccc;
+    -webkit-box-shadow: 0px 8px 8px 8px #cccccc;
+    position: relative;
+    margin-top: -88%;
+    background: white;
 }
 
-.menu-fee div:first-child{
-	font-family: 'Open Sans', sans-serif;
-	color: #333333;
-	font-size: 20px;
-	padding-bottom: 2%;
+#table-fee div:first-child p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 0px;
 }
 
-.hr-menu-fee{
-	width: 70%;
+#table-fee div:first-child img{
+    float: left;
+    margin-left: 10%;
 }
+
+.certificate-fee tr{
+    border-bottom: 1px solid #c9c9c9;
+    height: 50px;
+}
+
+.certificate-fee td td a{
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.certificate-fee tr td a:hover{
+    color: #3399ff;
+    text-decoration: none;
+}
+#block1-fee{
+    background: #f6f7f8;
+    display: inline-block;
+}
+
 .introduce-fee div:first-child{
 	font-family: 'Open Sans', sans-serif;
 	color: #3399ff;
@@ -73,72 +96,38 @@
 	height: 100%;
 }
 
-.register-fee{
-	background-color: #15181d;
-	text-align: center;
-	margin-top: 3%;
-	padding-bottom: 40px;
-	margin-bottom: 0px;
+#block3-fee{
+    background: #15181d;
+    text-align: center;
 }
 
-.new-title-fee{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 25px;
-	color: #ffffff;
+#block3-fee h2{
+    color: white;
+    padding-top: 6%;
 }
 
-.input-fee{
-	padding-bottom: 1%;
+#block3-fee p{
+    color: white;
 }
 
-.input-fee input{
-	background-color: #15181d;
-	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
-	width: 30%;
-	border: 2px solid #444957;
+#block3-fee form input{
+    background: #15181d;
+    width: 50%;
+    margin-bottom: 2%;
+    height: 70px;
+    padding-left: 2%;
+    color: gray;
+    border: 1px solid #444957;
 }
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #999999;
-}
-
-.down-fee button{
-	background-color: #15181d;
-	color: #999999;
-	font-family: 'Open Sans', sans-serif;
-	width: 30%;
-	border: 2px solid #444957;
-	text-align: left;
-}
-
-.fee-register{
-	margin-top: 1%;
-	width: 30%;
-	background-color: #4285f4;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-}
-
-.text-regis-fee{
-	font-size: 15px;
-	color: #666666;
-	font-family: 'Open Sans', sans-serif;
-	padding-top: 2%;
+.submit-button-fee{
+    background: #4285f4 !important;
+    font-size: 30px;
+    color: white !important;
+    font-weight: bold;
 }
 
 @media all and (min-width: 360px){
-	.menu-fee{
-		position: relative;
-		width: 70%;
-		margin-left: 25%;
-		margin-top: 3%;
-	}
-	.menu-fee div:first-child{
-		padding-bottom: 5%;
-		padding-top: 2%;
-	}
 	#fee-page{
 		text-align: center;
 	}
@@ -161,16 +150,6 @@
 }
 
 @media all and (min-width: 320px){
-	.menu-fee{
-		position: relative;
-		width: 70%;
-		margin-left: 25%;
-		margin-top: 3%;
-	}
-	.menu-fee div:first-child{
-		padding-bottom: 5%;
-		padding-top: 2%;
-	}
 	#fee-page{
 		text-align: center;
 	}
@@ -193,18 +172,6 @@
 }
 
 @media all and (min-width: 720px){
-	.menu-fee{
-		text-align: center;
-		border: 3px solid #dbdbdb;
-		height: 270px;
-	    border-top: 15px solid #0099ff;
-	    position: absolute;
-	    right: 10%;
-	    top: 35%;
-	    background-color: white;
-	    width: 30%;
-	}
-
 	.number-certi-fee{
 		text-align: left;
 		width: 100%;
@@ -237,4 +204,5 @@
 		margin-left: -25%;
 		width: 75%;
 	}
+
 }
