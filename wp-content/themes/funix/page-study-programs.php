@@ -29,8 +29,6 @@
                         <td>.</td>
                         <td><a href="#">Certificate 8</a></td>
                     </tr><tr>
-                        <td><a href="#">Certificate 9</a></td>
-                        <td>.</td>
                         <td>Học phí</td>
                     </tr>
                 </table>
