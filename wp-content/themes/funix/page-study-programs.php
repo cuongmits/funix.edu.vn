@@ -13,23 +13,23 @@
                 </div>
                 <table class="certificate">
                     <tr>
-                        <td><a href="#">Certificate 1</a></td>
+                        <td><a href="index.php?page_id=1169">Certificate 1</a></td>
                         <td>.</td>
-                        <td><a href="#">Certificate 2</a></td>
+                        <td><a href="index.php?page_id=1293">Certificate 2</a></td>
                     </tr><tr>
-                        <td><a href="#">Certificate 3</a></td>
+                        <td><a href="index.php?page_id=1297">Certificate 3</a></td>
                         <td>.</td>
-                        <td><a href="#">Certificate 4</a></td>
+                        <td><a href="index.php?page_id=1300">Certificate 4</a></td>
                     </tr><tr>
-                        <td><a href="#">Certificate 5</a></td>
+                        <td><a href="index.php?page_id=1302">Certificate 5</a></td>
                         <td>.</td>
-                        <td><a href="#">Certificate 6</a></td>
-                    </tr><tr>
-                        <td><a href="#">Certificate 7</a></td>
+                        <td><a href="index.php?page_id=1307">Certificate 6</a></td>
+                    </tr><tr>W
+                        <td><a href="index.php?page_id=1309">Certificate 7</a></td>
                         <td>.</td>
-                        <td><a href="#">Certificate 8</a></td>
+                        <td><a href="index.php?page_id=1304">Certificate 8</a></td>
                     </tr><tr>
-                        <td>Học phí</td>
+                        <td><a href="index.php?page_id=1270">Học phí</a></td>
                     </tr>
                 </table>
             </div>
@@ -38,19 +38,19 @@
                 <p><?php echo get_post_meta($post->ID,'About study programs',true);?></p>
                 <div class="image-cer">
                     <a href="index.php?page_id=1169"><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer1.png"></a>
-                    <a href=""><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer2.png"></a>
+                    <a href="index.php?page_id=1293"><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer2.png"></a>
                 </div>
                 <div class="image-cer">
-                    <a href=""><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer3.png"></a>
-                    <a href=""><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer4.png"></a>
+                    <a href="index.php?page_id=1297"><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer3.png"></a>
+                    <a href="index.php?page_id=1300"><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer4.png"></a>
                 </div>
                 <div class="image-cer">
-                    <a href=""><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer5.png"></a>
-                    <a href=""><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer6.png"></a>
+                    <a href="index.php?page_id=1302"><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer5.png"></a>
+                    <a href="index.php?page_id=1307"><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer6.png"></a>
                 </div>
                 <div class="image-cer">
-                    <a href=""><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer7.png"></a>
-                    <a href=""><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer8.png"></a>
+                    <a href="index.php?page_id=1309"><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer7.png"></a>
+                    <a href="index.php?page_id=1304"><img src="<?php echo get_template_directory_uri (); ?>/img/study-programs/cer8.png"></a>
                 </div>
             </div>
 

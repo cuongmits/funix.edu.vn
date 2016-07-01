@@ -1,5 +1,5 @@
 <?php
-/*Template Name: Certificate 3 FUNiX*/
+/*Template Name: Certificate 6 FUNiX*/
 
 get_header(); ?>
     <div id="primary" class="content-area">
@@ -13,28 +13,28 @@ get_header(); ?>
                     </div>
                     <table class="certificate">
                         <tr>
-                            <td><a href="#">Certificate 1</a></td>
+                            <td><a href="index.php?page_id=1169">Certificate 1</a></td>
                             <td>.</td>
-                            <td><a href="#">Certificate 2</a></td>
+                            <td><a href="index.php?page_id=1293">Certificate 2</a></td>
                         </tr><tr>
-                            <td><a href="#">Certificate 3</a></td>
+                            <td><a href="index.php?page_id=1297">Certificate 3</a></td>
                             <td>.</td>
-                            <td><a href="#">Certificate 4</a></td>
+                            <td><a href="index.php?page_id=1300">Certificate 4</a></td>
                         </tr><tr>
-                            <td><a href="#">Certificate 5</a></td>
+                            <td><a href="index.php?page_id=1302">Certificate 5</a></td>
                             <td>.</td>
-                            <td><a href="#">Certificate 6</a></td>
+                            <td><a href="index.php?page_id=1307">Certificate 6</a></td>
                         </tr><tr>
-                            <td><a href="#">Certificate 7</a></td>
+                            <td><a href="index.php?page_id=1309">Certificate 7</a></td>
                             <td>.</td>
-                            <td><a href="#">Certificate 8</a></td>
+                            <td><a href="index.php?page_id=1304">Certificate 8</a></td>
                         </tr><tr>
-                            <td>Học phí</td>
+                            <td><a href="index.php?page_id=1270">Học phí</a></td>
                         </tr>
                     </table>
                 </div>
                 <div class="block1-2 col-lg-5">
-                    <h2>Certificate 3</h2>
+                    <h2>Certificate 6</h2>
                     <p><?php echo get_post_meta($post->ID,'Subject',true);?></p>
                     <p><?php echo get_post_meta($post->ID,'Subject infor',true);?></p>
                 </div>
