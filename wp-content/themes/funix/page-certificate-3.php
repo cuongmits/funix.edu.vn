@@ -13,23 +13,23 @@ get_header(); ?>
                     </div>
                     <table class="certificate">
                         <tr>
-                            <td><a href="#">Certificate 1</a></td>
+                            <td><a href="index.php?page_id=1169">Certificate 1</a></td>
                             <td>.</td>
-                            <td><a href="#">Certificate 2</a></td>
+                            <td><a href="index.php?page_id=1293">Certificate 2</a></td>
                         </tr><tr>
-                            <td><a href="#">Certificate 3</a></td>
+                            <td><a href="index.php?page_id=1297">Certificate 3</a></td>
                             <td>.</td>
-                            <td><a href="#">Certificate 4</a></td>
+                            <td><a href="index.php?page_id=1300">Certificate 4</a></td>
                         </tr><tr>
-                            <td><a href="#">Certificate 5</a></td>
+                            <td><a href="index.php?page_id=1302">Certificate 5</a></td>
                             <td>.</td>
-                            <td><a href="#">Certificate 6</a></td>
-                        </tr><tr>
-                            <td><a href="#">Certificate 7</a></td>
+                            <td><a href="index.php?page_id=1307">Certificate 6</a></td>
+                        </tr><tr>W
+                            <td><a href="index.php?page_id=1309">Certificate 7</a></td>
                             <td>.</td>
-                            <td><a href="#">Certificate 8</a></td>
+                            <td><a href="index.php?page_id=1304">Certificate 8</a></td>
                         </tr><tr>
-                            <td>Học phí</td>
+                            <td><a href="index.php?page_id=1270">Học phí</a></td>
                         </tr>
                     </table>
                 </div>
