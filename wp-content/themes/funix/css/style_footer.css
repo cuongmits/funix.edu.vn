@@ -184,6 +184,10 @@
 		width: 115%;
 	}
 
+	.column-3 input{
+	    width: 115%;
+	}
+
 	#button .mentor{
 		width: 40%;
 	}
@@ -207,6 +211,11 @@
 	.column-3 .register {
 		width: 86%;
 	}
+
+	.column-3 input{
+	    width: 86%;
+	}
+
 	#jb-footer {
     	height: 500px;
 	}
@@ -225,7 +234,9 @@
 	.column-3 .register {
     	width: 66%;
 	}
-	
+	.column-3 input{
+	    width: 66%;
+	}
 	#jb-footer {
     	height: 350px;
 	}

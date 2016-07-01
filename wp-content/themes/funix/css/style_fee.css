@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,vietnamese");
+#fee-page{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.fee-img img{
+	width: 100%;
+	height: 220px;
+}
+.menu-fee{
+	text-align: center;
+	border: 3px solid #dbdbdb;
+	height: 270px;
+    border-top: 15px solid #0099ff;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    background-color: white;
+    width: 20%;
+}
+
+.menu-fee div:first-child{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-size: 20px;
+	padding-bottom: 2%;
+}
+
+.hr-menu-fee{
+	width: 70%;
+}
+.introduce-fee div:first-child{
+	font-family: 'Open Sans', sans-serif;
+	color: #3399ff;
+	font-size: 35px;
+}
+
+.introduce-fee div:nth-child(3){
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-size: 18px;
+}
+.fee-img{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.certificate-fee{
+	margin-top: 10%;
+}
+
+.certi-title-fee{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.number-certi-fee{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 15px;
+}
+
+.hr-blue-fee{
+	width: 70%;
+	color: #3399ff;
+	height: 100%;
+}
+
+.hr-fee{
+	width: 70%;
+	height: 100%;
+}
+
+.register-fee{
+	background-color: #15181d;
+	text-align: center;
+	margin-top: 3%;
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+}
+
+.new-title-fee{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.input-fee{
+	padding-bottom: 1%;
+}
+
+.input-fee input{
+	background-color: #15181d;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	width: 30%;
+	border: 2px solid #444957;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #999999;
+}
+
+.down-fee button{
+	background-color: #15181d;
+	color: #999999;
+	font-family: 'Open Sans', sans-serif;
+	width: 30%;
+	border: 2px solid #444957;
+	text-align: left;
+}
+
+.fee-register{
+	margin-top: 1%;
+	width: 30%;
+	background-color: #4285f4;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.text-regis-fee{
+	font-size: 15px;
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 2%;
+}
+
+@media all and (min-width: 360px){
+	.menu-fee{
+		position: relative;
+		width: 70%;
+		margin-left: 25%;
+		margin-top: 3%;
+	}
+	.menu-fee div:first-child{
+		padding-bottom: 5%;
+		padding-top: 2%;
+	}
+	#fee-page{
+		text-align: center;
+	}
+
+	.new-title-fee{
+		font-size: 17px;
+	}
+
+	.input-fee input{
+		width: 55%;
+	}
+
+	.down-fee button{
+		width: 55%;
+	}
+
+	.fee-register{
+		width: 55%;
+	}
+}
+
+@media all and (min-width: 320px){
+	.menu-fee{
+		position: relative;
+		width: 70%;
+		margin-left: 25%;
+		margin-top: 3%;
+	}
+	.menu-fee div:first-child{
+		padding-bottom: 5%;
+		padding-top: 2%;
+	}
+	#fee-page{
+		text-align: center;
+	}
+
+	.new-title-fee{
+		font-size: 17px;
+	}
+
+	.input-fee input{
+		width: 55%;
+	}
+
+	.down-fee button{
+		width: 55%;
+	}
+
+	.fee-register{
+		width: 55%;
+	}
+}
+
+@media all and (min-width: 720px){
+	.menu-fee{
+		text-align: center;
+		border: 3px solid #dbdbdb;
+		height: 270px;
+	    border-top: 15px solid #0099ff;
+	    position: absolute;
+	    right: 10%;
+	    top: 35%;
+	    background-color: white;
+	    width: 30%;
+	}
+
+	.number-certi-fee{
+		text-align: left;
+		width: 100%;
+	}
+
+	.certi-title-fee{
+		text-align: left;
+	}
+
+	.hr-blue-fee,.hr-fee{
+		margin-left: -25%;
+		width: 80%;
+	}
+
+	/*.bound-certi-fee{
+		padding-left: 15%;
+	}*/
+}
+
+@media all and (min-width: 1240px){
+	.fee-register{
+		width: 30%;
+	}
+
+	.introduce-fee div:first-child,.introduce-fee div:nth-child(3),.introduce-fee div:nth-child(2){
+		text-align: left;
+	}
+
+	.hr-blue-fee,.hr-fee{
+		margin-left: -25%;
+		width: 75%;
+	}
+}

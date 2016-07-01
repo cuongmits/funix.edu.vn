@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,vietnamese");
+#learn-page{
+	padding: 0px;
+}
+
+.title-why{
+	font-family: 'Open Sans', sans-serif;
+	color: #090c1b;
+	font-size: 40px;
+}
+
+.content-why{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 5%;
+}
+
+.how-learn{
+	margin-top: 4%;
+}
+
+.title-learn{
+	font-family: 'Open Sans', sans-serif;
+	color: #090c1b;
+	font-size: 40px;
+}
+
+.content-how-learn{
+	margin-top: 5%;
+}
+
+/*.avatar-learn ,.info-how-learn{
+	margin-left: 5%;
+}*/
+
+.mooc-learn, .mentor-learn{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 18px;
+	text-align: justify;
+	font-weight: bold;
+}
+
+.connect-learn{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.here-learn{
+	text-decoration: underline;
+}
+
+.three-learn ,.content-img-learn{
+	margin-top: 5%;
+}
+
+.title-three-learn{
+	text-align: center;
+	color: #000000;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.img-three-learn{
+	text-align: center;
+}
+
+.content-img-learn{
+	text-align: center;
+}
+
+.img-text-learn img{
+	height: 132px;
+}
+
+.img-text-learn div:nth-child(2),.img-text-learn div:nth-child(3),.img-text-learn div:nth-child(4){
+	color: #000000;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.img-text-learn div:nth-child(2){
+	margin-top: 7%;
+}
+
+@media all and (min-width: 360px){
+	.img-learn-funix img{
+		width: 100%;
+		height: 200px;
+	}
+	.img-learn-funix{
+		margin-bottom: 0px;
+	}
+	.title-why{
+		font-size: 30px;
+		text-align: center;
+	}
+	.content-why{
+		text-align: justify;
+	}
+
+	.hr-learn-funix{
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	.avatar-learn{
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.info-how-learn{
+		padding-top: 5%;
+	}
+
+	.mooc-learn,.mentor-learn{
+		text-align: center;
+	}
+
+	.title-three-learn{
+		font-size: 30px;
+	}
+
+	.img-text-learn img{
+		padding-top: 5%;
+	}
+}
+
+@media all and (min-width: 320px){
+	.img-learn-funix img{
+		width: 100%;
+		height: 200px;
+	}
+	.img-learn-funix{
+		margin-bottom: 0px;
+	}
+	.title-why{
+		font-size: 30px;
+		text-align: center;
+	}
+	.content-why{
+		text-align: justify;
+	}
+
+	.hr-learn-funix{
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	.avatar-learn{
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.avatar-learn img{
+		width: 95%;
+	}
+	.info-how-learn{
+		padding-top: 5%;
+	}
+
+	.mooc-learn,.mentor-learn{
+		text-align: center;
+	}
+
+	.title-three-learn{
+		font-size: 30px;
+	}
+
+	.img-text-learn img{
+		padding-top: 5%;
+	}
+}
+
+@media all and (min-width: 768px){
+	.title-why{
+		text-align: left;
+		font-size: 35px;
+	}
+
+	.img-learn-funix{
+		padding-bottom: 15px;
+	}
+
+	.hr-learn-funix{
+		text-align: left;
+		padding-top: 0px;
+	}
+
+	.hr-learn-funix img{
+		width: 100%;
+	}
+
+	.content-why{
+		text-align: justify;
+	}
+
+	.hr-learn-funix-2 img{}
+}
+
+@media all and (min-width: 1024px){
+	.info-how-learn{
+		padding-top: 0px;
+	}
+}
+
+@media all and (min-width: 1240px){
+	.info-how-learn{
+		padding-top: 0px;
+	}
+
+	.img-learn-funix img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.title-three-learn{
+		font-size: 40px;
+	}
+
+	.mooc-learn,.mentor-learn{
+		text-align: left;
+	}
+
+	.title-why{
+		font-size: 40px;
+	}
+}

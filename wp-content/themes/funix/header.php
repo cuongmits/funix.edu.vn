@@ -32,6 +32,13 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_header.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_about.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/index.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_learn.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_news.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_mentors.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_blogs.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_about.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_fee.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri (); ?>/css/style_faq.css">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">

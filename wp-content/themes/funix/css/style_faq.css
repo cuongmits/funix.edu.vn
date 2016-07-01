@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,vietnamese");
+.button-question{
+	transform:rotate(90deg);
+	background-color: #3156a3;
+	width: 20%;
+	position: fixed;
+	margin-left: -13.4%;
+	text-align: center;
+	z-index: 1;
+}
+
+.button-question img{
+	width: 15%;
+}
+
+.button-question a{
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#demo-faq{
+	
+}
